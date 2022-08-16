@@ -79,7 +79,7 @@ View data and transform for visualization: This type of gene expression data con
 
 
 ### Data Analysis
-The code for this analysis can be viewed [here](https://github.com/CyrilleMesue/gene_expression_analysis/Gene_Expression_Analysis.ipynb)
+The code for this analysis can be viewed [here](https://raw.githubusercontent.com/CyrilleMesue/gene_expression_analysis/main/Gene_Expression_Analysis.ipynb)
 
 Steps: 
 * Display Table using pandas
