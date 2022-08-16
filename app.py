@@ -58,9 +58,23 @@ def df_normalize(data_df, option = "columns"):
 
 st.set_page_config(page_title="Gene Expression Analysis", page_icon=None, layout="centered", initial_sidebar_state="auto", menu_items=None)
 
+
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
+
 st.title("Gene Expression Analysis")
 
-# st.sidebar.title("Navigation")
+st.sidebar.info("""
+### About Me    
+Bioinformatics enthusiast!   
+Istanbul, Turkey   
+Email: cyrillenjume2@gmail.com
+[LinkedIn](https://www.linkedin.com/in/cyrillenjume/)
+""")
 
 st.markdown("""
 The purpose of this notebook is to analyze a gene expression dataset using python. We will be answering questions such as:
